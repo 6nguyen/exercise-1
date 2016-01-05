@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"></head>
+    
+	</head>
+<body>
+    <div id="calculator" class="container">
+        <h2>Simple Calculator</h2>
+        <div>
+            <input type="text" id="number1" placeholder="First Number">
+            <input type="text" id="operator" placeholder="+,-,*,/">
+            <input type="text" id="number2" placeholder="Second Number">
+            <button onClick="calculate()">Calculate</button>
+        </div>
+        <p id="answer"></p>
+    </div>
+    <!-- CTRL + / creates a comment. --> 
+	<!-- RELATIVE PATHS:  -->
+	<!-- "./" finds a folder within the current directory, and searches for file there. -->
+	<!-- "../" finds a folder within the folder one branch up from the current dir.  Each dot is a branch  -->
+    <script src="./Calculator.js"></script>
+	<!-- ABSOLUTE PATH:  finds the exact file location, regardless of the current file's location.  -->
+	<!--<script src="/script/Calculatr.js"></script>-->
+	
+</body>
+
+</html>
+
+	<!--//Some useful APIs and concepts to consider:
+	//document.getElementById()
+	//Retrieving a value from HTML element
+	//Changing text of HTML from JavaScript
+	//Converting a string into a number-->
+    
